@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter Container",
+    "version": "1.0.0",
+
+    "description": "Twitter Container isolates your Twitter activity from the rest of your web activity in order to prevent Twitter from tracking you outside of the Twitter website via third party cookies.\nSorry for the same icon as the Facebook one, I'm not too swell on the creative side.",
+
+    "icons": {
+        "48": "icon.png",
+        "96": "icon@2x.png"
+    },
+
+    "applications": {
+      "gecko": {
+        "id": "@contain-Twitter",
+        "strict_min_version": "57.0"
+      }
+    },
+
+    "homepage_url": "https://github.com/murrty/firefox-containers",
+
+    "permissions": [
+        "<all_urls>",
+        "browsingData",
+        "contextualIdentities",
+        "cookies",
+        "management",
+        "storage",
+        "tabs",
+        "webRequestBlocking",
+        "webRequest"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
