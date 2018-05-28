@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Twitter Container",
-    "version": "1.0.0",
+    "version": "1.0.1",
 
     "description": "Twitter Container isolates your Twitter activity from the rest of your web activity in order to prevent Twitter from tracking you outside of the Twitter website via third party cookies.\nSorry for the same icon as the Facebook one, I'm not too swell on the creative side.",
 
@@ -12,7 +12,7 @@
 
     "applications": {
       "gecko": {
-        "id": "@contain-Twitter",
+        "id": "@contain-twitter",
         "strict_min_version": "57.0"
       }
     },
