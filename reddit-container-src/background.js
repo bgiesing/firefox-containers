@@ -3,7 +3,7 @@ const FACEBOOK_CONTAINER_NAME = "Reddit";
 const FACEBOOK_CONTAINER_COLOR = "red";
 const FACEBOOK_CONTAINER_ICON = "briefcase";
 const FACEBOOK_DOMAINS = [
-  "reddit.com", "redditstatic.com", "redd.it"
+  "reddit.com", "redditstatic.com", "redd.it", "redditmedia.com"
 ];
 
 const MAC_ADDON_ID = "@testpilot-containers";
