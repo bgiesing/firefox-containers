@@ -3,7 +3,7 @@ const FACEBOOK_CONTAINER_NAME = "Twitter";
 const FACEBOOK_CONTAINER_COLOR = "blue";
 const FACEBOOK_CONTAINER_ICON = "briefcase";
 const FACEBOOK_DOMAINS = [
-  "twitter.com", "twimg.com", "t.co"
+  "twitter.com", "twimg.com", "t.co", "vine.co", "periscope.tv", "pscp.tv"
 ];
 
 const MAC_ADDON_ID = "@testpilot-containers";
